@@ -20,7 +20,7 @@
 | Riesgo si falsa | Pérdida de tiempo y recursos en una anticipación poco precisa. |
 | Acción si confirma | Usar el análisis de la TRM para definir la próxima compra o pago en dólares. |
 | Acción si refuta | Suspender el uso del modelo de anticipación y revisar las variables utilizadas. |
-| Experimento analítico mínimo (query + visual 1 línea) | |
+| Experimento analítico mínimo (query + visual 1 línea) | Primero, se debe tomar la base de datos real de la TRM mensual de 2015 a 2025 y verificar que el equipo tenga los permisos necesarios para acceder y trabajar con la información. Luego, se incorporan únicamente datos económicos reales y verificables de las fuentes definidas, como inflación, tasa de política monetaria, precio del petróleo y comportamiento internacional del dólar. Con la información organizada por mes, se observa qué ocurrió con la TRM cuando estos factores cambiaron. En palabras sencillas: vamos a mirar el pasado para encontrar patrones que nos ayuden a entender por qué la TRM sube, baja o se mantiene.<br><br>Después, se utiliza esa información para intentar anticipar qué pasará con la TRM en el siguiente mes, clasificando el resultado como aumento, disminución o estabilidad. Se prueba el método con los datos de 2024–2025 y se compara lo que se anticipó con lo que realmente ocurrió. Finalmente, se calcula el porcentaje de aciertos: si alcanza 60 % o más, el supuesto tiene evidencia a favor y podemos continuar; si es 52 % o menos, se considera que el supuesto falló y se debe revisar la estrategia. En palabras sencillas: intentamos predecir la TRM, comprobamos cuántas veces acertamos y, según el resultado, decidimos si la idea funciona o debemos cambiarla. |
 | Estado (V/A/R) | |
 
 ## Bloque 2
@@ -43,7 +43,7 @@
 | Riesgo si falsa | Inversión de recursos en factores que no explican la TRM. |
 | Acción si confirma | Identificar los factores económicos que más influyen en la TRM antes de realizar una operación en dólares. |
 | Acción si refuta | Descartar los factores con baja relación con la TRM y buscar nuevas variables explicativas. |
-| Experimento analítico mínimo (query + visual 1 línea) | |
+| Experimento analítico mínimo (query + visual 1 línea) | El experimento consiste en integrar los datos históricos mensuales de la TRM con los principales factores económicos nacionales e internacionales, utilizando información real y verificable para cada periodo. Posteriormente, se analizará la relación entre las variaciones de la TRM y variables como la inflación, la tasa de política monetaria, el precio del petróleo y el comportamiento internacional del dólar, con el propósito de identificar cuáles presentan una mayor asociación con los movimientos de la TRM.<br><br>Finalmente, se determinará la fuerza y dirección de las relaciones encontradas mediante un análisis estadístico de las variables seleccionadas. Los resultados permitirán establecer si la integración de información proveniente de diferentes fuentes facilita la identificación de los factores económicos asociados a las variaciones de la TRM y, por tanto, si existe evidencia suficiente para respaldar el supuesto. |
 | Estado (V/A/R) | |
 
 ## Bloque 3
@@ -66,7 +66,7 @@
 | Riesgo si falsa | Aumento del riesgo de sobrecostos por reaccionar tarde a cambios de la TRM. |
 | Acción si confirma | Revisar la TRM antes de realizar una compra o pago en dólares y ajustar la decisión según su variación. |
 | Acción si refuta | Revisar el criterio de variación significativa y ajustar el método de detección. |
-| Experimento analítico mínimo (query + visual 1 línea) | |
+| Experimento analítico mínimo (query + visual 1 línea) | El experimento consiste en analizar el comportamiento mensual de la TRM durante el periodo 2015–2025, utilizando las variables de variación mensual y volatilidad de corto y largo plazo para identificar los periodos en los que se presentaron cambios significativos. Se establecerán criterios objetivos para diferenciar periodos de variación normal de aquellos que representen una mayor exposición al riesgo cambiario.<br><br>Posteriormente, se analizará la frecuencia e intensidad de estos episodios y su posible incidencia sobre las operaciones denominadas en dólares, particularmente compras, pagos y presupuestos. El resultado permitirá determinar si la identificación de periodos de variación significativa proporciona información suficiente para favorecer ajustes oportunos en las decisiones financieras de los pequeños empresarios y validar o refutar el supuesto. |
 | Estado (V/A/R) | |
 
 # Ficha de Indicador
